@@ -56,26 +56,22 @@ body {
     color: #fff;
 }
 
-.dash-item {
-    padding: 42px;
-    width: 40%;
-    border-radius: 50px;
-    background: #eaeaea;
-    box-shadow:  20px 20px 60px #cfb3a1, -20px -20px 60px #fff3d9;
-}
-
 .dash-wrapper {
+    display: flex;
     padding: 9% 3%;
-    width: 65%;
+    /* width: 65%; */
 }
 
 .dash-item {
-    width: 100%;
-    padding-left: 4%;
+    width: 55%;
+    padding: 42px 4%;
     display: flex;
     border-radius: 0;
     justify-content: space-around;
     align-items: center; 
+    background: #eaeaea;
+    box-shadow:  20px 20px 60px #cfb3a1, -20px -20px 60px #fff3d9;
+
 }
 
 .dash-item i {
@@ -136,7 +132,7 @@ body {
 
 .line-border {
     border-bottom: 1px solid #88a5b8;
-    width: 55%;
+    width: 50%;
     text-align: center;
     margin: 3% 5%;
 }
@@ -377,4 +373,35 @@ button {
     color: #fff;
     padding: 5% 5%;
     font-size: 14px;
+}
+
+.side-wrapper {
+    padding-left: 10%;
+    display: flex;
+}
+
+.side-wrapper h4 {
+    color: #406882;
+    padding-bottom: 5%;
+}
+
+.calender {
+    padding-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.calender p {
+    color: #406882;
+    margin-bottom: 0.6em;
+}
+
+.calender-box {
+    margin-bottom: 5px;
+    margin-left: 5px;
+    padding-bottom: 5px;
+    background-color: #F4B266;
+    height: 35px;
+    width: 35px;
+    border-radius: 2px;
 }
