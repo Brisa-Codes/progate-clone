@@ -150,6 +150,8 @@ body {
 .progress .progress-title i {
     font-size: 1.2rem;
     color:  #064635;
+    display: flex;
+    align-items: center;
     padding-right: 1.2rem;
 }
 
@@ -378,11 +380,19 @@ button {
 .side-wrapper {
     padding-left: 10%;
     display: flex;
+    position: relative;
 }
 
-.side-wrapper h4 {
+.side-wrapper .side-title h4 {
+    position: absolute;
+    right: 22%;
     color: #406882;
-    padding-bottom: 5%;
+}
+
+.calender-container {
+    display: flex;
+   padding-top: 10%;
+
 }
 
 .calender {
@@ -404,4 +414,9 @@ button {
     height: 35px;
     width: 35px;
     border-radius: 2px;
+}
+
+.roadmap {
+    color: #406882;
+    padding-left: 14%;
 }
