@@ -417,6 +417,21 @@ button {
 }
 
 .roadmap {
-    color: #406882;
+    color: #213e52;
     padding-left: 14%;
+}
+
+.roadmap button {
+    font-weight: bold;
+    margin-top: 1.2rem;
+    width: 100%;
+    height: 60px;
+    background: #fff;
+    color: #0070d2;
+}
+
+.roadmap button:hover {
+    background: #e0e0e0;
+    box-shadow:  11px 11px 22px #a1a1a1,
+             -11px -11px 22px #ffffff;
 }
