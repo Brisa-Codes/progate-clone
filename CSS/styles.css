@@ -142,7 +142,12 @@ body {
     padding: 0 5%;
 }
 
-.progress .progress-title {
+.progress-status .roadmap {
+    display: flex;
+    align-items: flex-end;
+}
+
+.lessons-progress {
     display: flex;
     padding-bottom: 1.2em;
 }
@@ -163,9 +168,12 @@ body {
 
 .btn-view {
     padding-left: 35%;
+    padding-bottom: 0;
 }
 
 .btn-view button {
+    display: flex;
+    justify-items: flex-start;
     background: none;
     border: none;
     color: #406882;
@@ -184,10 +192,9 @@ body {
     opacity: 0.6;
 }
 
-/*button changes*/
-
 .btn-container {
     display: flex;
+
 }
 
 button {
@@ -380,7 +387,6 @@ button {
 .side-wrapper {
     padding-left: 10%;
     display: flex;
-    position: relative;
 }
 
 .side-wrapper .side-title h4 {
@@ -416,22 +422,52 @@ button {
     border-radius: 2px;
 }
 
-.roadmap {
-    color: #213e52;
-    padding-left: 14%;
-}
-
-.roadmap button {
-    font-weight: bold;
-    margin-top: 1.2rem;
+.achieve-container {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0.4rem;
     width: 100%;
-    height: 60px;
-    background: #fff;
-    color: #0070d2;
+    justify-content: center;
+    position: relative;
+    left: 21%;
 }
 
-.roadmap button:hover {
-    background: #e0e0e0;
-    box-shadow:  11px 11px 22px #a1a1a1,
-             -11px -11px 22px #ffffff;
+.achieve-container .achieve {
+    display: flex;
+    justify-content: center;
+}
+
+.achieve h4 {
+    color: #406882;
+    letter-spacing: 1.5px;
+    display: flex;
+    align-items: center;
+}
+
+.achieve-btn-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2%;
+}
+
+.web-courses {
+    padding: 10%;
+}
+
+.courses-title-wrapper {
+    display: flex;
+}
+
+.courses-title-wrapper i {
+    display: flex;
+    align-items: center;
+    padding-right: 1.4rem;
+    color: #406882;
+}
+
+.courses-title-wrapper h3 {
+    padding-right: 0.6rem;
+    color: #406882;
 }
