@@ -32,6 +32,11 @@ body {
     color: #FFCCC9;
 }
 
+.header-wrapper a:hover {
+    cursor: pointer!important;
+    opacity: 0.8;
+}
+
 .header-wrapper .menu a:hover {
     border-bottom: 4px solid #8be0e6;
     transition: ease-out all .2s;
@@ -167,8 +172,8 @@ body {
 }
 
 .btn-view {
+    display: flex;
     padding-left: 35%;
-    padding-bottom: 0;
 }
 
 .btn-view button {
@@ -177,7 +182,8 @@ body {
     background: none;
     border: none;
     color: #406882;
-    padding: 0 6px;
+    padding-top: 1rem;
+    padding-right: 1.2rem;
 }
 
 .btn-view button:hover {
@@ -194,33 +200,38 @@ body {
 
 .btn-container {
     display: flex;
+    align-items: center;
+}
 
+.btn-container .btn {
+    display: inline-flex;
+    align-items: center;
+    padding: 0 16px;
+    border-radius: 15px;
+    margin-right: 8px;
+    height: 30px;
+    font-size: 0.75rem;
+    color: #2b546a;
+    background-color: #2b546a;
+    cursor: pointer;
+}
+
+.btn-container .btn:hover {
+    opacity: 0.8;
+}
+
+.btn-container .btn i {
+    color: #fff;
+    padding-right: 0.4rem;
+    display: flex;
+    align-items: center;
 }
 
 button {
     background: none;
     border: none;
     color: #fff;
-    padding: 0.2rem 0.8rem;
     cursor: pointer;
-}
-
-.btn {
-    background: #406882;
-    border-radius: 14px;
-    padding: 0.2rem 0.6rem;
-    margin-right: 1rem;
-    margin-bottom: 1.2rem;
-}
-
-.btn-view {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-}
-
-.btn:hover {
-    opacity: 0.6;
 }
 
 .learn-container {
