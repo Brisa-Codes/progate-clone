@@ -601,6 +601,10 @@ button {
     padding-right: 0.6rem;
 }
 
+.course-ruby-wrapper .course-ruby-list p {
+    padding-top: 0.6rem;
+}
+
 .course-ruby-wrapper .course-ruby-list i:hover {
     opacity: 0.7;
 }
