@@ -475,6 +475,7 @@ button {
 
 .web-dev-course {
     display: flex;
+    justify-content: space-around;
     width: 100%;
     border-radius: 4px;
     background: #e0e0e0;
@@ -539,4 +540,61 @@ button {
     padding-right: 18px;
     padding-left: 0.4rem;
     color: #406882;
+}
+
+
+.course-ruby {
+    margin-top: 10%;
+}
+
+.course-ruby:hover {
+    cursor: pointer;
+}
+
+.course-ruby-wrapper {
+    max-width: 350px;
+    border: 5px solid #567d96;
+}
+
+.course-ruby-wrapper img {
+    width: 340px;
+    height: 240px;
+    background: #acacac;
+    margin-bottom: 1.2rem;
+    padding-top: 5%;
+}
+
+.course-ruby-wrapper img:hover {
+    opacity: 0.7;
+}
+
+.course-ruby-wrapper h2 {
+    padding: 0 1.4rem;
+    font-size: 16px;
+    color: #406882;
+}
+
+.course-ruby-wrapper h2:hover {
+    opacity: 0.7;
+}
+
+.course-ruby-wrapper p:hover {
+    opacity: 0.7;
+}
+
+.course-ruby-wrapper .course-ruby-list {
+    display: flex;
+    justify-content: center;
+    padding: 1.2rem 0;
+    color: #406882;
+}
+
+.course-ruby-wrapper .course-ruby-list i {
+    display: flex;
+    align-items: center;
+    padding-right: 0.6rem;
+}
+
+.course-ruby-wrapper .course-ruby-list i:hover {
+    opacity: 0.7;
 }
