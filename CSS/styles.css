@@ -470,6 +470,7 @@ button {
 
 .courses-title-wrapper h3 {
     padding-right: 0.6rem;
+    padding-top: 0.6rem;
     color: #406882;
 }
 
@@ -482,10 +483,14 @@ button {
     box-shadow:  25px 25px 49px #b3b3b3,-25px -25px 49px #ffffff;
 }
 
+.web-dev-course .web-dev-img {
+    display: flex;
+    align-items: center;
+}
+
 .web-dev-course .web-dev-img img {
     width: 300px;
     height: 250px;
-    margin: auto;
 }
 
 .web-dev-course-wrapper {
@@ -529,6 +534,7 @@ button {
 .web-dev-course-wrapper .web-dev-list li {
     list-style: none;
     padding-right: 18px;
+    padding-top: 0.6rem;
     color: #406882;
     font-size: 14px;
     font-weight: 400;
@@ -598,3 +604,102 @@ button {
 .course-ruby-wrapper .course-ruby-list i:hover {
     opacity: 0.7;
 }
+
+.lang-courses {
+    margin-top: 2.8rem;
+}
+
+.lang-courses-title {
+    margin-bottom: 2rem;
+}
+
+.lang-courses-wrapper .lang-courses-title {
+    display: flex;
+    color: #406882;
+}
+
+.lang-courses-wrapper .lang-courses-title h3 {
+    padding-right: 0.4rem;
+    padding-top: 0.4rem;
+    font-weight: 400;
+}
+
+.lang-courses-wrapper .lang-courses-title i {
+    display: flex;
+    align-items: center;
+    padding-right: 0.8rem;
+}
+
+.lang-courses-list {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 1.2rem;
+}
+
+.lang-course-child {
+    width: 25%;
+    padding: 2rem;
+    margin-left: 1.2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #e0e0e0;
+}
+
+.lang-course-child:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.lang-course-child h2 {
+    color: #567d96;
+    text-align: center;
+}
+
+.lang-course-child img {
+    margin: auto;
+    width: 140px;
+    height: 120px;
+    padding: 10px;
+}
+
+.lang-course-child p, i {
+    color: #567d96;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 1.2rem;
+    padding-top: 0.8rem;
+}
+
+.lang-course-child-list {
+    display: flex;
+    justify-content: center;
+}
+
+.lang-course-child-list i {
+    display: flex;
+    align-items: center;
+    color: #567d96;
+    padding-right: 1rem;
+}
+
+.lang-course-child-list p {
+    color: #567d96;
+    font-size: 14px;
+}
+
+.courses-btn {
+    margin-top: 4rem;
+    padding-left: 1.2rem;
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    text-decoration: none;
+}
+.courses-btn p {
+    color: #567d96;
+    font-size: 18px;
+}
+
