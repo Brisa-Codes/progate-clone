@@ -458,6 +458,7 @@ button {
 
 .courses-title-wrapper {
     display: flex;
+    margin-bottom: 3%;
 }
 
 .courses-title-wrapper i {
@@ -469,5 +470,73 @@ button {
 
 .courses-title-wrapper h3 {
     padding-right: 0.6rem;
+    color: #406882;
+}
+
+.web-dev-course {
+    display: flex;
+    width: 100%;
+    border-radius: 4px;
+    background: #e0e0e0;
+    box-shadow:  25px 25px 49px #b3b3b3,-25px -25px 49px #ffffff;
+}
+
+.web-dev-course .web-dev-img img {
+    width: 300px;
+    height: 250px;
+    margin: auto;
+}
+
+.web-dev-course-wrapper {
+    margin-top: 3%;
+    width: 50%;
+}
+
+.web-dev-course-wrapper h2 {
+    font-size: 32px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 1.2rem;
+    font-family: 'lato', sans-serif;
+    color: #406882;
+}
+
+.web-dev-course-wrapper h3 {
+    padding-left: 2rem;
+    font-size: 32px;
+    color: #406882;
+    font-family: 'lato', sans-serif;
+    padding-bottom: 1.2rem;
+}
+
+.web-dev-course-wrapper p {
+    padding-left: 2rem;
+    color: #406882;
+    font-family: 'lato', sans-serif;
+    letter-spacing: 1px;
+}
+
+.web-dev-course-wrapper .web-dev-list {
+    display: flex;
+    margin-top: 1rem;
+    background: #c9c7c7;
+    padding: 0.4rem;
+    margin-bottom: 15%;
+    margin-left: 2rem;
+}
+
+.web-dev-course-wrapper .web-dev-list li {
+    list-style: none;
+    padding-right: 18px;
+    color: #406882;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.web-dev-course-wrapper .web-dev-list i {
+    display: flex;
+    align-items: center;
+    padding-right: 18px;
+    padding-left: 0.4rem;
     color: #406882;
 }
