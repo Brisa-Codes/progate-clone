@@ -17,6 +17,26 @@ body {
     box-shadow: 0 1px 3px rgb(160 166 179 / 30%);
     position: fixed;
     height: 48px;
+    display: flex;
+}
+
+.header-wrapper .profile {
+    float: ;
+}
+
+.menu .menu-search-btn {
+    background: #c9c7c7;
+}
+
+.header-wrapper .menu input {
+    cursor: pointer;
+    color: #fff;
+    font-weight: 300;
+    padding: 8px;
+    width: 200px;
+    border-radius: 8px;
+    background: none;
+    border: 1px solid #2b546a;
 }
 
 .header-wrapper a {
@@ -323,6 +343,7 @@ button {
 }
 
 .footer-wrapper {
+    padding-top: 2rem;
     background-color: #736b92;
 }
 
